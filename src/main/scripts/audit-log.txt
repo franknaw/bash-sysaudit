@@ -1,0 +1,163 @@
+#######################################################################
+START AUDIT CHECK - 2020-07-28 09:09:45
+#######################################################################
+
+####-- Start Check if servers are Online --####
+
+localhost Online
+127.0.0.1 Online
+
+####-- Finish Check if servers are Online --####
+
+####-- Start Get SSL Info --####
+
+keytool error: java.lang.Exception: No certificate from the SSL server
+
+Protocol
+    Protocol  : TLSv1.2
+
+Cipher
+New, TLSv1.2, Cipher is ECDHE-RSA-AES128-SHA256
+    Cipher    : ECDHE-RSA-AES128-SHA256
+
+####-- Finish Get SSL Info --####
+
+
+####-- Connecting to Server: localhost with user tay --####
+
+Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+
+#### Start Server: localhost - localhost.localdomain
+
+
+Mem Check:================================================================>
+              total        used        free      shared  buff/cache   available
+Mem:       32667232    14263840    11746032      656716     6657360    17281620
+Swap:       8228860       25344     8203516
+
+UpTime Check:==============================================================>
+ 09:09:46 up 20 days, 23:07,  1 user,  load average: 0.80, 1.01, 0.85
+
+UName Check:===============================================================>
+Linux localhost.localdomain 4.18.0-193.6.3.el8_2.x86_64 #1 SMP Wed Jun 10 11:09:32 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+Disk Check:===============================================================>
+Filesystem           Size  Used Avail Use% Mounted on
+devtmpfs              16G     0   16G   0% /dev
+tmpfs                 16G  545M   16G   4% /dev/shm
+tmpfs                 16G   51M   16G   1% /run
+tmpfs                 16G     0   16G   0% /sys/fs/cgroup
+/dev/mapper/cl-root   50G  9.3G   41G  19% /
+/dev/mapper/cl-home  646G   98G  548G  16% /home
+/dev/sda1            976M  274M  636M  31% /boot
+tmpfs                3.2G  6.1M  3.2G   1% /run/user/1000
+tmpfs                3.2G  1.2M  3.2G   1% /run/user/42
+tmpfs                3.2G     0  3.2G   0% /run/user/1001
+
+Processes Check:===============================================================>
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.1:39419         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:6942          0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:514             0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:27017           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:5355            0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:43789         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:63342         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:34639         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      -                   
+tcp        0      0 192.168.122.1:53        0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -                   
+tcp6       0      0 :::514                  :::*                    LISTEN      -                   
+tcp6       0      0 :::5355                 :::*                    LISTEN      -                   
+tcp6       0      0 :::111                  :::*                    LISTEN      -                   
+tcp6       0      0 127.0.0.1:37299         :::*                    LISTEN      -                   
+tcp6       0      0 127.0.0.1:22452         :::*                    LISTEN      -                   
+tcp6       0      0 :::22                   :::*                    LISTEN      -                   
+tcp6       0      0 ::1:631                 :::*                    LISTEN      -                   
+
+Last Users:===============================================================>
+fnaw     pts/2        192.168.1.151    Fri Jul 10 14:34 - 17:10  (02:36)
+fnaw     tty2         tty2             Tue Jul  7 10:04   still logged in
+reboot   system boot  4.18.0-193.6.3.e Tue Jul  7 06:01   still running
+fnaw     pts/0        192.168.1.151    Mon Jul  6 16:26 - 16:30  (00:03)
+reboot   system boot  4.18.0-193.6.3.e Mon Jul  6 10:13 - 16:30  (06:17)
+
+#### Finished Server: localhost - localhost.localdomain
+
+
+####-- Connecting to Server: 127.0.0.1 with user tay --####
+
+Activate the web console with: systemctl enable --now cockpit.socket
+
+This system is not registered to Red Hat Insights. See https://cloud.redhat.com/
+To register this system, run: insights-client --register
+
+
+#### Start Server: 127.0.0.1 - localhost.localdomain
+
+
+Mem Check:================================================================>
+              total        used        free      shared  buff/cache   available
+Mem:       32667232    14267892    11741728      656884     6657612    17277404
+Swap:       8228860       25344     8203516
+
+UpTime Check:==============================================================>
+ 09:09:46 up 20 days, 23:07,  1 user,  load average: 0.80, 1.01, 0.85
+
+UName Check:===============================================================>
+Linux localhost.localdomain 4.18.0-193.6.3.el8_2.x86_64 #1 SMP Wed Jun 10 11:09:32 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+Disk Check:===============================================================>
+Filesystem           Size  Used Avail Use% Mounted on
+devtmpfs              16G     0   16G   0% /dev
+tmpfs                 16G  545M   16G   4% /dev/shm
+tmpfs                 16G   51M   16G   1% /run
+tmpfs                 16G     0   16G   0% /sys/fs/cgroup
+/dev/mapper/cl-root   50G  9.3G   41G  19% /
+/dev/mapper/cl-home  646G   98G  548G  16% /home
+/dev/sda1            976M  274M  636M  31% /boot
+tmpfs                3.2G  6.1M  3.2G   1% /run/user/1000
+tmpfs                3.2G  1.2M  3.2G   1% /run/user/42
+tmpfs                3.2G     0  3.2G   0% /run/user/1001
+
+Processes Check:===============================================================>
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.1:39419         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:6942          0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:514             0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:27017           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:5355            0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:43789         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:63342         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:34639         0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      -                   
+tcp        0      0 192.168.122.1:53        0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -                   
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      -                   
+tcp6       0      0 :::514                  :::*                    LISTEN      -                   
+tcp6       0      0 :::5355                 :::*                    LISTEN      -                   
+tcp6       0      0 :::111                  :::*                    LISTEN      -                   
+tcp6       0      0 127.0.0.1:37299         :::*                    LISTEN      -                   
+tcp6       0      0 127.0.0.1:22452         :::*                    LISTEN      -                   
+tcp6       0      0 :::22                   :::*                    LISTEN      -                   
+tcp6       0      0 ::1:631                 :::*                    LISTEN      -                   
+
+Last Users:===============================================================>
+fnaw     pts/2        192.168.1.151    Fri Jul 10 14:34 - 17:10  (02:36)
+fnaw     tty2         tty2             Tue Jul  7 10:04   still logged in
+reboot   system boot  4.18.0-193.6.3.e Tue Jul  7 06:01   still running
+fnaw     pts/0        192.168.1.151    Mon Jul  6 16:26 - 16:30  (00:03)
+reboot   system boot  4.18.0-193.6.3.e Mon Jul  6 10:13 - 16:30  (06:17)
+
+#### Finished Server: 127.0.0.1 - localhost.localdomain
+
+#######################################################################
+END AUDIT CHECK - 2020-07-28 09:09:46
+#######################################################################

@@ -1,0 +1,63 @@
+#######################################################################
+START RUN CMD - 2020-01-29 16:13:06
+#######################################################################
+
+####-- Connecting to Server: localhost with user someuser --####
+
+Activate the web console with: systemctl enable --now cockpit.socket
+
+
+#### Start Server: localhost - localhost.localdomain
+
+Install Package:==========================================================>
+Execute command  --  uname -a
+Linux localhost.localdomain 4.18.0-147.3.1.el8_1.x86_64 #1 SMP Fri Jan 3 23:55:26 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+#### Finished Server: localhost - localhost.localdomain
+
+
+####-- Connecting to Server: 127.0.0.1 with user someuser --####
+
+Activate the web console with: systemctl enable --now cockpit.socket
+
+
+#### Start Server: 127.0.0.1 - localhost.localdomain
+
+Install Package:==========================================================>
+Execute command  --  uname -a
+Linux localhost.localdomain 4.18.0-147.3.1.el8_1.x86_64 #1 SMP Fri Jan 3 23:55:26 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+#### Finished Server: 127.0.0.1 - localhost.localdomain
+
+
+####-- Connecting to Server: localhost with user someuser --####
+
+Activate the web console with: systemctl enable --now cockpit.socket
+
+
+#### Start Server: localhost - localhost.localdomain
+
+Install Package:==========================================================>
+Execute command  --  uname -a
+Linux localhost.localdomain 4.18.0-147.3.1.el8_1.x86_64 #1 SMP Fri Jan 3 23:55:26 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+#### Finished Server: localhost - localhost.localdomain
+
+
+####-- Connecting to Server: 127.0.0.1 with user someuser --####
+
+Activate the web console with: systemctl enable --now cockpit.socket
+
+
+#### Start Server: 127.0.0.1 - localhost.localdomain
+
+Install Package:==========================================================>
+Execute command  --  uname -a
+Linux localhost.localdomain 4.18.0-147.3.1.el8_1.x86_64 #1 SMP Fri Jan 3 23:55:26 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+#### Finished Server: 127.0.0.1 - localhost.localdomain
+
+#######################################################################
+END RUN CMD - 2020-01-29 16:13:38
+#######################################################################
+
