@@ -52,3 +52,8 @@ renameCAs
 genKey
 genTrust
 
+
+# keytool -list -v -keystore my-keystore.p12 > keystore-out.txt
+# keytool -list -v -keystore my-truststore.p12 > truststore-out.txt
+# openssl req -nodes -newkey rsa:2048 -keyout myKey.key -out myCSR.csr
+
