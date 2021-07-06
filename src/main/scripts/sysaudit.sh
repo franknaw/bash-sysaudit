@@ -72,7 +72,7 @@ function getSSLInfo() {
  port=$2
  echo "####-- Start Get SSL Info --####"
  echo ""
- keytool -printcert -sslserver $host:$port
+ keytool -printcert -sslserver $host:$port | grep -m 1 "Valid"
  echo ""
  echo "Protocol"
  openssl s_client -connect aicig.net:443 | grep "Protocol"
