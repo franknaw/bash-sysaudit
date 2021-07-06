@@ -1,3 +1,4 @@
+# Generate Keystore/Truststore for Tomcat TLS Server
 # Rough Initial Proof of concept
 
 function getKey() {
